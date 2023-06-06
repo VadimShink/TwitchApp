@@ -8,17 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		1400C9942A2F60FB00F14D4A /* TwitchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9932A2F60FB00F14D4A /* TwitchAppApp.swift */; };
-		1400C9962A2F60FB00F14D4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9952A2F60FB00F14D4A /* ContentView.swift */; };
 		1400C9982A2F60FC00F14D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1400C9972A2F60FC00F14D4A /* Assets.xcassets */; };
 		1400C99B2A2F60FC00F14D4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1400C99A2A2F60FC00F14D4A /* Preview Assets.xcassets */; };
+		1400C9A32A2F665900F14D4A /* ServerAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9A22A2F665900F14D4A /* ServerAgent.swift */; };
+		1400C9A72A2F669E00F14D4A /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9A62A2F669E00F14D4A /* Action.swift */; };
+		1400C9AA2A2F674200F14D4A /* ServerAgentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9A92A2F674200F14D4A /* ServerAgentProtocol.swift */; };
+		1400C9AC2A2F676E00F14D4A /* EmptyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9AB2A2F676E00F14D4A /* EmptyData.swift */; };
+		1400C9AE2A2F67A700F14D4A /* ErrorMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9AD2A2F67A700F14D4A /* ErrorMetadata.swift */; };
+		1400C9B12A2F67D400F14D4A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9B02A2F67D400F14D4A /* Model.swift */; };
+		1400C9B32A2F6E3D00F14D4A /* ModelAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9B22A2F6E3D00F14D4A /* ModelAction.swift */; };
+		1400C9B52A2F6FF700F14D4A /* Model+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9B42A2F6FF700F14D4A /* Model+Stream.swift */; };
+		1400C9B82A2F703B00F14D4A /* ServerCommands+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9B72A2F703B00F14D4A /* ServerCommands+Stream.swift */; };
+		1400C9BB2A2F749600F14D4A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9BA2A2F749600F14D4A /* MainView.swift */; };
+		1400C9BD2A2F74AA00F14D4A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9BC2A2F74AA00F14D4A /* MainViewModel.swift */; };
+		1400C9BF2A2F753400F14D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9BE2A2F753400F14D4A /* AppDelegate.swift */; };
+		1400C9C12A2F797D00F14D4A /* GameListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9C02A2F797D00F14D4A /* GameListModel.swift */; };
+		1400C9C32A2F7B5B00F14D4A /* GameCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9C22A2F7B5B00F14D4A /* GameCellView.swift */; };
+		1400C9C62A2F7D7900F14D4A /* GameCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400C9C52A2F7D7900F14D4A /* GameCellViewModel.swift */; };
+		1400C9C92A2F828B00F14D4A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1400C9C82A2F828B00F14D4A /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1400C9902A2F60FB00F14D4A /* TwitchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1400C9932A2F60FB00F14D4A /* TwitchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAppApp.swift; sourceTree = "<group>"; };
-		1400C9952A2F60FB00F14D4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1400C9972A2F60FC00F14D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1400C99A2A2F60FC00F14D4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1400C9A22A2F665900F14D4A /* ServerAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAgent.swift; sourceTree = "<group>"; };
+		1400C9A62A2F669E00F14D4A /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		1400C9A92A2F674200F14D4A /* ServerAgentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAgentProtocol.swift; sourceTree = "<group>"; };
+		1400C9AB2A2F676E00F14D4A /* EmptyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyData.swift; sourceTree = "<group>"; };
+		1400C9AD2A2F67A700F14D4A /* ErrorMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMetadata.swift; sourceTree = "<group>"; };
+		1400C9B02A2F67D400F14D4A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1400C9B22A2F6E3D00F14D4A /* ModelAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelAction.swift; sourceTree = "<group>"; };
+		1400C9B42A2F6FF700F14D4A /* Model+Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Stream.swift"; sourceTree = "<group>"; };
+		1400C9B72A2F703B00F14D4A /* ServerCommands+Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServerCommands+Stream.swift"; sourceTree = "<group>"; };
+		1400C9BA2A2F749600F14D4A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1400C9BC2A2F74AA00F14D4A /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1400C9BE2A2F753400F14D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1400C9C02A2F797D00F14D4A /* GameListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListModel.swift; sourceTree = "<group>"; };
+		1400C9C22A2F7B5B00F14D4A /* GameCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCellView.swift; sourceTree = "<group>"; };
+		1400C9C52A2F7D7900F14D4A /* GameCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1400C9C92A2F828B00F14D4A /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				1400C9932A2F60FB00F14D4A /* TwitchAppApp.swift */,
-				1400C9952A2F60FB00F14D4A /* ContentView.swift */,
+				1400C9BE2A2F753400F14D4A /* AppDelegate.swift */,
+				1400C9AF2A2F67CB00F14D4A /* Model */,
+				1400C9A42A2F668200F14D4A /* Domain */,
+				1400C9A12A2F664E00F14D4A /* Services */,
+				1400C9B92A2F71E600F14D4A /* Views */,
 				1400C9972A2F60FC00F14D4A /* Assets.xcassets */,
 				1400C9992A2F60FC00F14D4A /* Preview Content */,
 			);
@@ -65,6 +99,80 @@
 				1400C99A2A2F60FC00F14D4A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1400C9A12A2F664E00F14D4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1400C9B62A2F702000F14D4A /* Server */,
+				1400C9A82A2F673200F14D4A /* Abstract */,
+				1400C9A22A2F665900F14D4A /* ServerAgent.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1400C9A42A2F668200F14D4A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				1400C9A52A2F669200F14D4A /* Abstract */,
+				1400C9AB2A2F676E00F14D4A /* EmptyData.swift */,
+				1400C9AD2A2F67A700F14D4A /* ErrorMetadata.swift */,
+				1400C9C02A2F797D00F14D4A /* GameListModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		1400C9A52A2F669200F14D4A /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				1400C9A62A2F669E00F14D4A /* Action.swift */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		1400C9A82A2F673200F14D4A /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				1400C9A92A2F674200F14D4A /* ServerAgentProtocol.swift */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		1400C9AF2A2F67CB00F14D4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1400C9B02A2F67D400F14D4A /* Model.swift */,
+				1400C9B22A2F6E3D00F14D4A /* ModelAction.swift */,
+				1400C9B42A2F6FF700F14D4A /* Model+Stream.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1400C9B62A2F702000F14D4A /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				1400C9B72A2F703B00F14D4A /* ServerCommands+Stream.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		1400C9B92A2F71E600F14D4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1400C9BA2A2F749600F14D4A /* MainView.swift */,
+				1400C9BC2A2F74AA00F14D4A /* MainViewModel.swift */,
+				1400C9C42A2F7D6700F14D4A /* GameCellView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1400C9C42A2F7D6700F14D4A /* GameCellView */ = {
+			isa = PBXGroup;
+			children = (
+				1400C9C22A2F7B5B00F14D4A /* GameCellView.swift */,
+				1400C9C52A2F7D7900F14D4A /* GameCellViewModel.swift */,
+			);
+			path = GameCellView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +191,9 @@
 			dependencies = (
 			);
 			name = TwitchApp;
+			packageProductDependencies = (
+				1400C9C82A2F828B00F14D4A /* Kingfisher */,
+			);
 			productName = TwitchApp;
 			productReference = 1400C9902A2F60FB00F14D4A /* TwitchApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 1400C9872A2F60FB00F14D4A;
+			packageReferences = (
+				1400C9C72A2F828B00F14D4A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 1400C9912A2F60FB00F14D4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +251,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1400C9962A2F60FB00F14D4A /* ContentView.swift in Sources */,
+				1400C9B32A2F6E3D00F14D4A /* ModelAction.swift in Sources */,
+				1400C9C32A2F7B5B00F14D4A /* GameCellView.swift in Sources */,
+				1400C9BB2A2F749600F14D4A /* MainView.swift in Sources */,
+				1400C9A32A2F665900F14D4A /* ServerAgent.swift in Sources */,
+				1400C9AA2A2F674200F14D4A /* ServerAgentProtocol.swift in Sources */,
+				1400C9BF2A2F753400F14D4A /* AppDelegate.swift in Sources */,
+				1400C9C12A2F797D00F14D4A /* GameListModel.swift in Sources */,
+				1400C9B52A2F6FF700F14D4A /* Model+Stream.swift in Sources */,
+				1400C9C62A2F7D7900F14D4A /* GameCellViewModel.swift in Sources */,
+				1400C9BD2A2F74AA00F14D4A /* MainViewModel.swift in Sources */,
+				1400C9A72A2F669E00F14D4A /* Action.swift in Sources */,
+				1400C9AC2A2F676E00F14D4A /* EmptyData.swift in Sources */,
+				1400C9AE2A2F67A700F14D4A /* ErrorMetadata.swift in Sources */,
 				1400C9942A2F60FB00F14D4A /* TwitchAppApp.swift in Sources */,
+				1400C9B82A2F703B00F14D4A /* ServerCommands+Stream.swift in Sources */,
+				1400C9B12A2F67D400F14D4A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +403,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +433,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +469,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1400C9C72A2F828B00F14D4A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1400C9C82A2F828B00F14D4A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1400C9C72A2F828B00F14D4A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1400C9882A2F60FB00F14D4A /* Project object */;
 }
