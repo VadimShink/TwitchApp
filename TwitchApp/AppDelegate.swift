@@ -16,10 +16,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         let serverAgent = ServerAgent(environment: environment)
         
-//        let localContext = LocalAgent.Context(cacheFolderName: "cache", encoder: JSONEncoder(), decoder: JSONDecoder(), fileManager: FileManager.default)
-//        let localAgent = LocalAgent(context: localContext)
-        
-//        let model = Model(serverAgent: serverAgent, localAgent: localAgent)
         let model = Model(serverAgent: serverAgent)
         
         return model
